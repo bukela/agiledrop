@@ -77,7 +77,11 @@
     {% endif %}
 
   </main>
-
+    {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}
+  <div class="featured-bottom">
+    {{ page.featured_bottom_first }}
+  </div>
+    {% endif %}
   {% if page.footer %}
     <footer role="contentinfo">
       {{ page.footer }}

@@ -8,8 +8,8 @@ version: 1.x
 
 # Include libraries
 libraries:
-  - kickstarter/global-css
-  - kickstarter/global-js
+  - agiledrop/global-css
+  - agiledrop/global-js
 
 # Regions
 regions:
@@ -17,6 +17,8 @@ regions:
   primary_menu: 'Primary menu'
   highlighted: 'Highlighted'
   content: 'Content'
-  sidebar: 'Sidebar'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
   footer: 'Footer'
   footer_second: 'Footer second'

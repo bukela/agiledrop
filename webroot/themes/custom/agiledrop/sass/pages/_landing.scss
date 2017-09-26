@@ -8,3 +8,22 @@
 .front {
 
 }
+
+div.slider-caption {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  color: #fff;
+
+  h1 {
+    font-family: Karla-bold;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+ul.slick-dots {
+  bottom: 4%;
+}

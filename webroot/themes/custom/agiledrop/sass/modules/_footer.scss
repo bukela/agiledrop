@@ -8,3 +8,27 @@
 .footer {
 
 }
+
+.region-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-menu {
+  ul {
+    padding: 0;
+    li {
+      text-decoration: none;
+      list-style: none;
+      line-height: 2rem;
+
+      a {
+        color: $color-karla;
+        padding-left: 0;
+        &:hover {
+          color: $color-font;
+        }
+
+      }
+    }
+  }
+}

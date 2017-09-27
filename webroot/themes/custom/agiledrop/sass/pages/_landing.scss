@@ -32,6 +32,9 @@ span.free {
 }
 .free-service {
   margin-bottom: 2rem;
+  clear: both;
+  padding: 20px;
+
 
   h2 {
     color: $color-font;
@@ -45,4 +48,23 @@ span.free {
   &:nth-of-type(1) {
     padding: 0.5% 3.3%;
   }
+}
+
+p.front-page {
+  color: $color-karla;
+  word-wrap: break-word;
+}
+
+.front-content {
+  width: 60%;
+  float: left;
+  padding-right: 2em;
+}
+.boost-block {
+  float: left;
+  width:35%;
+  top: 1em;
+    p {
+      font-size: 1.2em;
+    }
 }

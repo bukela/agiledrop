@@ -91,3 +91,16 @@
 .region-highlighted {
   background-color: #6E6E70;
 }
+
+.contact-us   a {
+  text-decoration: none;
+  background-color: $color-blue;
+  padding: 7px;
+  border-radius: 1rem;
+  color: #fff;
+  word-break: keep-all;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $color-orange;
+  }
+}

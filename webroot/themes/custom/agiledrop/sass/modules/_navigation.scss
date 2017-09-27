@@ -69,3 +69,25 @@
       }
   }
 }
+
+.search-block {
+  display: flex;
+  justify-content: center;
+}
+
+.search-block .form--inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-block .button {
+  color: #fff;
+  background-color: $color-orange;
+  padding: 6px 17px 6px 17px;
+  border: none;
+  border-radius: 5px;
+}
+
+.region-highlighted {
+  background-color: #6E6E70;
+}

@@ -42,19 +42,16 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
+
 
   <header role="banner">
     {{ page.primary_menu }}
     {{ page.header }}
+    {{ page.highlighted }}
   </header>
-
+<div class="layout-container">
   {{ page.secondary_menu }}
-
   {{ page.breadcrumb }}
-
-  {{ page.highlighted }}
-
   {{ page.help }}
 
   <main role="main">
@@ -77,11 +74,13 @@
     {% endif %}
 
   </main>
+</div>{# /.layout-container #}
     {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}
   <div class="featured-bottom">
     {{ page.featured_bottom_first }}
   </div>
     {% endif %}
+
   {% if page.footer %}
     <footer role="contentinfo">
       {{ page.footer }}
@@ -89,4 +88,4 @@
     </footer>
   {% endif %}
 
-</div>{# /.layout-container #}
+

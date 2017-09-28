@@ -95,7 +95,7 @@ span.free {
   }
 
 }
-.grid__content {
+.latest-events .grid__content {
   text-align: center;
   background-color: #fff;
   padding: 0 0 2em 0;
@@ -127,4 +127,16 @@ span.free {
 .view-featured-compani {
   width: 1200px;
   margin: auto;
+  .views-field-field-company-logo {
+    float: left;
+    padding-right: 1em;
+  }
+  .views-field-title a{
+    color: $color-font;
+    font-size: 1.2em;
+  }
+  .views-field-body p{
+    color: $color-karla;
+    font-size: 1em;
+  }
 }

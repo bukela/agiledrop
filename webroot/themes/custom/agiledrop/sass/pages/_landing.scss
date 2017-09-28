@@ -76,4 +76,30 @@ span.free {
 }
 .latest-events {
   clear: both;
+  background-color: #E5EDEF;
+    .views-field-title {
+      padding-top: 1em;
+      text-transform: uppercase;
+      a {
+        color: $color-font;
+      }
+
+    }
+  .views-field-field-start-date {
+    color: $color-orange;
+    padding-top: 1em;
+  }
+  .view-content {
+    width:1200px;
+    margin: auto;
+  }
+}
+.grid__content {
+  text-align: center;
+  background-color: #fff;
+  padding: 0 0 2em 0;
+}
+
+li[class*='grid--'] {
+  box-shadow: 0px 7px 4px -3px rgba(0,0,0,0.75);
 }

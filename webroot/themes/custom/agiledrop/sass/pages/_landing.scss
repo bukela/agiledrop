@@ -50,21 +50,30 @@ span.free {
   }
 }
 
-p.front-page {
+.front-page p {
   color: $color-karla;
   word-wrap: break-word;
+  font-size: 1em;
 }
 
-.front-content {
-  width: 60%;
-  float: left;
-  padding-right: 2em;
-}
 .boost-block {
   float: left;
-  width:35%;
+  width: 40%;
   top: 1em;
+  clear: right;
     p {
-      font-size: 1.2em;
+      font-size: 1em;
+      color: $color-karla;
     }
+    strong {
+      color: $color-font;
+    }
+}
+.front-page {
+  float: left;
+  width: 60%;
+  margin: auto;
+}
+.latest-events {
+  clear: both;
 }

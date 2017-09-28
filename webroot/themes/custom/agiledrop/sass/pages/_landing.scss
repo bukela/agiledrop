@@ -80,6 +80,7 @@ span.free {
   .views-field-title {
     padding-top: 1em;
     text-transform: uppercase;
+    padding-left: 1em;
     a {
       color: $color-font;
     }
@@ -88,29 +89,30 @@ span.free {
   .views-field-field-start-date {
     color: $color-orange;
     padding-top: 1em;
+    padding-left: 1em;
   }
   .view-content {
-    width:1200px;
+    max-width:1200px;
     margin: auto;
   }
 
 }
 .latest-events .grid__content {
-  text-align: center;
+  //text-align: center;
   background-color: #fff;
   padding: 0 0 2em 0;
   margin: auto;
 }
 
 .latest-events li[class*='grid--'] {
-  box-shadow: 0px 7px 4px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 7px 4px -3px rgba(0,0,0,0.55);
 }
-.view-header .mypage-title {
+.latest-events .view-header .mypage-title {
   padding-left: 2.3em;
   padding-bottom: 1em;
   font-weight: 800;
 }
-.view-header .mypage-subtitle {
+.latest-events .view-header .mypage-subtitle {
   padding-left: 3.7em;
   padding-bottom: 1em;
 
@@ -134,9 +136,44 @@ span.free {
   .views-field-title a{
     color: $color-font;
     font-size: 1.2em;
+    font-weight: 700;
   }
   .views-field-body p{
     color: $color-karla;
     font-size: 1em;
   }
+}
+
+
+.locations-page .view-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .views-field-title {
+      padding-left: 1em;
+      padding-top: 1em;
+      text-transform: uppercase;
+      a {
+        color: $color-orange;
+      }
+
+    }
+    img {
+      max-width: 100%;
+
+    }
+    .views-field-body {
+      padding-left: 1em;
+      p {
+        margin-top: 0;
+        color: $color-font;
+      }
+    }
+  }
+
+.locations-row {
+  background-color: #E5EDEF;
+  padding: 0 0 2em 0;
+  margin-bottom: 1em;
 }

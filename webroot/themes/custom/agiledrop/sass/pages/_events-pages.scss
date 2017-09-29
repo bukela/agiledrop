@@ -59,6 +59,23 @@
 }
 
 
-.myevents-page .events-row:nth-child(odd) div.event-image {
-  order: -1;
+//.myevents-page .events-row:nth-child(odd) div.event-image {
+//  order: -1;
+//}
+
+.field--name-field-event-image img {
+  border-radius: 50%;
+  margin: auto;
+}
+.node--type-event {
+
+  .field--type-entity-reference {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2em;
+      a {
+        color: $color-font;
+      }
+
+  }
 }

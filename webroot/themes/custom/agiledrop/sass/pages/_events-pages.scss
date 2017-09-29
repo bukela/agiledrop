@@ -1,0 +1,56 @@
+.events-row {
+  background-color: #E5EDEF;
+  padding: 0 0 2em 0;
+  margin-bottom: 1em;
+  display: inline-block;
+  width: 350px;
+  margin: auto;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+    .event-time {
+      color: $color-font;
+      font-size: 2.5em;
+      padding-top: 0.5em;
+    }
+    .event-date {
+      color: $color-darkgray;
+      font-size: 1.2em;
+      padding-bottom: 1em;
+
+    }
+    .views-field-title {
+      a {
+        color: $color-darkgray;
+        font-size: 1.2em;
+      }
+    }
+      .views-field-link-to-revision {
+        padding: 2em;
+      }
+
+  .read-more-events {
+    background-color: #29c1e1;
+    color: #fff;
+    padding: 0.5% 2%;
+    border-radius: 1rem;
+    transition: 0.5s;
+    padding: 0.4em 0.9em;
+
+
+      a {
+        color: #fff;
+
+      }
+
+    &:hover {
+      background-color: $color-orange;
+    }
+  }
+}
+
+.events-row .event-body {
+  color: $color-karla;
+  padding-bottom: 2.5em;
+}

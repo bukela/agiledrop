@@ -54,3 +54,11 @@
   color: $color-karla;
   padding-bottom: 2.5em;
 }
+.myevents-page .view-header {
+  padding-left: 1em;
+}
+
+
+.myevents-page .events-row:nth-child(odd) div.event-image {
+  order: -1;
+}

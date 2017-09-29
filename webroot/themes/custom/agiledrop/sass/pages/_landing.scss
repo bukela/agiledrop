@@ -25,6 +25,15 @@ div.slider-caption {
     font-size: 1.5rem;
   }
 }
+
+div.banner-caption {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
 ul.slick-dots {
   bottom: 4%;
 }

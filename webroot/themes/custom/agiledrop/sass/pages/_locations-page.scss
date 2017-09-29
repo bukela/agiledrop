@@ -1,0 +1,39 @@
+.locations-page .view-content {
+  //display: inline-block;
+
+  .views-field-title {
+    padding-left: 1em;
+    padding-top: 1em;
+    text-transform: uppercase;
+    a {
+      color: $color-orange;
+    }
+
+  }
+  img {
+    max-width: 100%;
+
+  }
+  .views-field-body {
+    padding-left: 1em;
+    p {
+      margin-top: 0;
+      color: $color-font;
+    }
+  }
+  .view-header {
+    padding-left: 1em;
+  }
+}
+
+.locations-row {
+  background-color: #E5EDEF;
+  padding: 0 0 2em 0;
+  margin-bottom: 1em;
+  display: inline-block;
+  width: 265px;
+  margin: auto;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}

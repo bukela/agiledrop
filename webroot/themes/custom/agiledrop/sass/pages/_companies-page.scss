@@ -9,6 +9,58 @@
   font-weight: normal;
   color: $color-font;
   text-transform: uppercase;
+}
 
+.mycompanies-page {
+
+  .views-field-title {
+    font-size: 1.5em;
+
+
+      a {
+        color: $color-font;
+        border-left: 4px solid $color-blue;
+        padding-left: 1em;
+
+          &:hover {
+            border-left: 4px solid $color-orange;
+            padding-left: 0.2em;
+          }
+      }
+  }
+
+  .company-body {
+    color: $color-karla;
+    padding-bottom: 1em;
+  }
+  .company-link {
+    background-color: #29c1e1;
+    color: #fff;
+    padding: 0.5% 2%;
+    border-radius: 1rem;
+    transition: 0.5s;
+    padding: 0.4em 0.9em;
+
+    a {
+      color: #fff;
+
+    }
+
+    &:hover {
+      background-color: $color-orange;
+    }
+
+  }
 
 }
+
+.mycompanies-page .views-row {
+  padding: 2em 0em;
+
+    .company-logo {
+      float: left;
+      margin-right: 2em;
+    }
+}
+
+

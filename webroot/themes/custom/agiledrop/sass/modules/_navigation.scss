@@ -73,6 +73,12 @@
 .search-block {
   display: flex;
   justify-content: center;
+
+    .js-form-item-title::before {
+      content: ':';
+      color: #fff;
+      padding-right: 0.5em;
+    }
 }
 
 .search-block .form--inline {
@@ -103,4 +109,11 @@
   &:hover {
     background-color: $color-orange;
   }
+}
+
+.search-text {
+  color: #fff;
+  border-left: 5px solid #F7931D;
+  margin-bottom: 1em;
+  padding-left: 2em;
 }

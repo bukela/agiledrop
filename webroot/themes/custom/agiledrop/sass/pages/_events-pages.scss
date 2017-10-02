@@ -1,14 +1,16 @@
 .events-row {
   background-color: #E5EDEF;
-  padding: 0 0 2em 0;
+  //padding-bottom: 2em;
   margin-bottom: 1em;
-  display: inline-block;
+  //display: inline-block;
   width: 350px;
-  margin: auto;
+  //margin: auto;
   margin-bottom: 2em;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   text-align: center;
+  display: flex;
+  flex-direction: column;
     .event-time {
       color: $color-font;
       font-size: 2.5em;
@@ -113,4 +115,22 @@
   width: 45%;
   margin-left: 10%;
   margin-top: 2em;
+}
+
+//.events-row {
+//  @include make-xs-column(12);
+//  @include make-sm-column(6);
+//  @include make-md-column(3);
+//  @include make-lg-column(4);
+//}
+
+.myevents-page .view-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.events-row:nth-child(odd) {
+  .views-field-field-event-image {
+    order: 1;
+  }
 }

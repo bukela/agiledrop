@@ -46,7 +46,7 @@
   margin: 1em;
   border: 2px solid lightgray;
   padding: 1em;
-  display: inline-block;
+  display: block;
   transition: 0.5s;
 
 
@@ -81,7 +81,7 @@
   margin: 1em;
   border: 2px solid lightgray;
   padding: 1em;
-  display: inline-block;
+  display: block;
   transition: 0.5s;
 
 
@@ -117,7 +117,7 @@
   margin: 1em;
   border: 2px solid lightgray;
   padding: 1em;
-  display: inline-block;
+  display: block;
   transition: 0.5s;
 
   a {
@@ -144,5 +144,24 @@
       color: $color-orange;
     }
   }
+}
+
+.field--name-field-location-equipment {
+
+    .field__item a {
+      text-transform: uppercase;
+      color: #fff;
+      padding: 5px 12px;
+      background-color: $color-blue;
+      &:hover {
+        background-color: $color-orange;
+      }
+    }
+  .field__item {
+    margin: 2em;
+    display: inline-block;
+
+  }
+
 
 }

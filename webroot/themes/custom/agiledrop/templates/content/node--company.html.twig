@@ -1,0 +1,31 @@
+{%
+set classes = [
+'node',
+'node--type-' ~ node.bundle|clean_class,
+node.isPromoted() ? 'node--promoted',
+node.isSticky() ? 'node--sticky',
+not node.isPublished() ? 'node--unpublished',
+view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+]
+%}
+{{ attach_library('classy/node') }}
+<article{{ attributes.addClass(classes) }}>
+
+    {{ content.field_company_logo }}
+    {{ content.body }}
+
+    {{ title_prefix }}
+    <h2{{ title_attributes.addClass(events.title) }}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h2>
+    {{ title_suffix }}
+
+    {{ content.field_company_industry }}
+    {{ content.field_company_website }}
+    {{ content.field_company_phone_number }}
+    {{ content.field_company_email }}
+    <div{{ attributes.addClass('gmap') }}>
+        {{ content.field_company_address }}
+    </div>
+
+</article>

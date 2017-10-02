@@ -64,4 +64,78 @@
     }
 }
 
+.node--type-company .field__item {
+  a {
+    color: $color-font;
+  }
+}
 
+.field--name-field-company-logo {
+  float: left;
+}
+
+//company icons
+
+.field--name-field-company-industry {
+  width: 45%;
+  border: 2px solid lightgray;
+  padding: 1em;
+  display: inline-block;
+  transition: 0.5s;
+
+  a {
+    text-decoration: none;
+    color: #1a1a1a;
+  }
+  a::before {
+    content: "\f013";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    color: $color-font;
+    border-right: 2px solid cyan;
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.5s;
+  }
+  &:hover {
+    border: 2px solid $color-orange;
+    a::before{
+      border-right: 2px solid $color-orange;
+      color: $color-orange;
+    }
+  }
+}
+
+.field--name-field-company-website {
+  width: 45%;
+  border: 2px solid lightgray;
+  padding: 1em;
+  display: inline-block;
+  transition: 0.5s;
+
+  a {
+    text-decoration: none;
+    color: #1a1a1a;
+  }
+  a::before {
+    content: "\f1b3";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    color: $color-font;
+    border-right: 2px solid cyan;
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.5s;
+  }
+  &:hover {
+    border: 2px solid $color-orange;
+    a::before{
+      border-right: 2px solid $color-orange;
+      color: $color-orange;
+    }
+  }
+}

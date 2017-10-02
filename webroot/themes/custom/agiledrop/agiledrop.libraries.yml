@@ -5,6 +5,7 @@ global-css:
     theme:
       assets/stylesheets/application.css:
       assets/stylesheets/tester.css:
+      assets/stylesheets/vendor/font-awesome/scss/font-awesome.css:
         minified: false
 
 # Global JS files

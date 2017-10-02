@@ -25,6 +25,12 @@
 .region-primary-menu {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 0.7em;
+  
+    @media screen and (max-width: $screen-sm) {
+      display: block;
+
+    }
 }
 
 .agile-navigation {
@@ -36,6 +42,11 @@
     justify-content: space-between;
     width: 100%;
     text-transform: uppercase;
+
+    @media screen and (max-width: $screen-sm) {
+      display: block;
+
+    }
   }
 }
 .menu--main .menu-item {
@@ -45,6 +56,14 @@
     font-size: 1.2em;
     text-transform: uppercase;
     color: $color-karla;
+
+    @media screen and (max-width: $screen-md) {
+      font-size: 1em;
+    }
+    @media screen and (max-width: $screen-sm) {
+      font-size: 1.2em;
+    }
+
     //padding: 10px;
 
     &:hover {

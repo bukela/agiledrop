@@ -38,3 +38,111 @@
   margin-left: 1em;
   margin-right: 1em;
 }
+
+//location single
+
+.field--name-field-location-website {
+  width: 300px;
+  margin: 1em;
+  border: 2px solid lightgray;
+  padding: 1em;
+  display: inline-block;
+  transition: 0.5s;
+
+
+  a {
+    text-decoration: none;
+    color: #1a1a1a;
+    display: block;
+  }
+  a::before {
+    content: "\f1b3";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    color: $color-font;
+    border-right: 2px solid cyan;
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.5s;
+  }
+  &:hover {
+    border: 2px solid $color-orange;
+    a::before{
+      border-right: 2px solid $color-orange;
+      color: $color-orange;
+    }
+  }
+}
+
+.field--name-field-location-phone-number {
+  width: 300px;
+  margin: 1em;
+  border: 2px solid lightgray;
+  padding: 1em;
+  display: inline-block;
+  transition: 0.5s;
+
+
+  a {
+    text-decoration: none;
+    color: #1a1a1a;
+    display: block;
+  }
+  a::before {
+    content: "\f095";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    color: $color-font;
+    border-right: 2px solid cyan;
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.5s;
+  }
+  &:hover {
+    border: 2px solid $color-orange;
+    a::before{
+      border-right: 2px solid $color-orange;
+      color: $color-orange;
+    }
+  }
+
+}
+
+.field--name-field-location-email {
+  width: 300px;
+  margin: 1em;
+  border: 2px solid lightgray;
+  padding: 1em;
+  display: inline-block;
+  transition: 0.5s;
+
+  a {
+    text-decoration: none;
+    color: #1a1a1a;
+    display: block;
+  }
+  a::before {
+    content: "\f1fa";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    color: $color-font;
+    border-right: 2px solid cyan;
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.5s;
+  }
+  &:hover {
+    border: 2px solid $color-orange;
+    a::before{
+      border-right: 2px solid $color-orange;
+      color: $color-orange;
+    }
+  }
+
+}

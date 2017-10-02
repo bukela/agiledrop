@@ -68,9 +68,10 @@ span.free {
 
 .boost-block {
   float: left;
-  width: 40%;
-  top: 1em;
+  width: 380px;
+  //top: 1em;
   clear: right;
+  display: inline-block;
     p {
       font-size: 1em;
       color: $color-karla;
@@ -78,11 +79,16 @@ span.free {
     strong {
       color: $color-font;
     }
+  img {
+    float: left;
+    margin-right: 0.5em;
+  }
 }
 .front-page {
   float: left;
-  width: 60%;
+  width: 780px;
   margin: auto;
+  display: inline-block;
 }
 .latest-events {
   clear: both;

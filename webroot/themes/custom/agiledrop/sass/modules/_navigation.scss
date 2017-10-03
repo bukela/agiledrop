@@ -36,6 +36,10 @@
 .agile-navigation {
   width:40%;
   display: flex;
+  @media screen and (max-width: $screen-sm) {
+    display: block;
+
+  }
 
   ul.menu {
     display: flex;
@@ -45,6 +49,7 @@
 
     @media screen and (max-width: $screen-sm) {
       display: block;
+      margin: auto;
 
     }
   }
@@ -59,9 +64,11 @@
 
     @media screen and (max-width: $screen-md) {
       font-size: 1em;
+      display: block;
     }
     @media screen and (max-width: $screen-sm) {
       font-size: 1.2em;
+      display: block;
     }
 
     //padding: 10px;
@@ -74,6 +81,10 @@
 
 .navigation.menu--account ul li {
   display: inline;
+    @media screen and (max-width: $screen-sm) {
+      display: block;
+      text-align: center;
+    }
   //margin: auto;
   a {
     text-decoration: none;
@@ -83,6 +94,12 @@
     color: #fff;
     word-break: keep-all;
     text-transform: uppercase;
+
+    @media screen and (max-width: $screen-sm) {
+      border-radius: 0;
+      display: block;
+      max-width: 100%;
+    }
       &:hover {
         background-color: $color-orange;
       }

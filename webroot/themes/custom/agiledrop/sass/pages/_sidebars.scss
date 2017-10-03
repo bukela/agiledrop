@@ -19,12 +19,18 @@
 
     .sidebar-event-title {
       text-transform: uppercase;
+      border-left: 4px solid $color-blue;
+      padding-left:9px;
         a {
           color: $color-font;
         }
     }
     .sidebar-event-date {
       color: $color-orange;
+      padding-left: 13px;
+    }
+    .sidebar-event-image {
+      padding-left: 13px;
     }
 }
 

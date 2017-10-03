@@ -221,9 +221,36 @@
   width: 819px;
   height: 250px;
   display: flex;
-  flex-direction: row-reverse;
+  border: 2px solid lightgrey;
+  padding: 5px;
+    iframe {
+      order: 1;
+      align-self: center;
+      margin-right: 5px;
+    }
 }
 //.field--name-field-company-industry, .field--name-field-company-website,
 //.field--name-field-company-phone-number, .field--name-field-company-email {
 //
 //}
+
+p.simple-gmap-address {
+  color: $color-font;
+  height: 20%;
+  font-size: 1.4em;
+  display: inline-block;
+  width: 20%;
+  padding-left: 2%;
+  border-left: 4px solid $color-blue;
+  margin: auto;
+}
+
+.field--name-field-company-address::before {
+  content: '\f0b1';
+  font-family: FontAwesome;
+  color: #cfcccc;
+  font-size: 3em;
+  margin: auto;
+  padding-left: 1em;
+
+}

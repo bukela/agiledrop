@@ -1,0 +1,46 @@
+.sidebar-none .region-content{
+  width: 100%;
+}
+
+.sidebar-second .region-content{
+  width: 75%;
+  float: left;
+  margin: 30px auto;
+  display: inline-block;
+}
+
+.region-sidebar-second{
+  float: right;
+  margin: 50px auto;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+    .sidebar-event-title {
+      text-transform: uppercase;
+        a {
+          color: $color-font;
+        }
+    }
+    .sidebar-event-date {
+      color: $color-orange;
+    }
+}
+
+
+.sidebar-first .region-content{
+  width: 75%;
+  float: right;
+  margin: 30px auto;
+  display: inline-block;
+}
+
+.region-sidebar-first{
+  float: left;
+  margin: 50px auto;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}

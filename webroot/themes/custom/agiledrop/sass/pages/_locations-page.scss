@@ -162,6 +162,25 @@
     display: inline-block;
 
   }
+}
+.field--name-field-location-address {
+  width: 819px;
+  height: 250px;
+  display: flex;
+  border: 2px solid lightgrey;
+  padding: 5px;
+  iframe {
+    order: 1;
+    align-self: center;
+    margin-right: 5px;
+  }
+}
 
-
+.field--name-field-location-address::before {
+  content: '\f0b1';
+  font-family: FontAwesome;
+  color: #cfcccc;
+  font-size: 3em;
+  margin: auto;
+  padding-left: 1em;
 }

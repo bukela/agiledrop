@@ -130,7 +130,7 @@ span.free {
   //text-align: center;
   background-color: #fff;
   padding: 0 0 2em 0;
-  margin: auto;
+  //margin: auto;
 }
 
 .latest-events li[class*='grid--'] {
@@ -156,7 +156,7 @@ span.free {
   margin: auto;
 }
 .view-featured-compani {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   .views-field-field-company-logo {
     float: left;
@@ -197,6 +197,6 @@ img.triangle-o {
   padding-bottom: 4em;
   margin-bottom: 3em;
 }
-.view-featured-compani .grid-content {
-  max-width: 100%;
-}
+//.view-featured-compani .grid-content {
+//  max-width: 100%;
+//}

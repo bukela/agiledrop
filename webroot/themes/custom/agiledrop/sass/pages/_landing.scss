@@ -124,6 +124,10 @@ span.free {
     max-width:1200px;
     margin: auto;
   }
+  img {
+    width: 100%;
+    height: auto;
+  }
 
 }
 .latest-events .grid__content {
@@ -200,3 +204,22 @@ img.triangle-o {
 //.view-featured-compani .grid-content {
 //  max-width: 100%;
 //}
+
+.footer2-text {
+  text-align: center;
+  text-transform: uppercase;
+}
+p.footer2-text {
+  color: $color-karla;
+  border-bottom: 1px solid $color-karla;
+  font-size: 1.5vw;
+}
+.email-text {
+  color: $color-karla;
+}
+
+@media screen and (max-width: $screen-xs) {
+  .region-footer-second {
+    display: none;
+  }
+}

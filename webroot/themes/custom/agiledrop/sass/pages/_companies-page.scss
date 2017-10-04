@@ -254,3 +254,14 @@ p.simple-gmap-address {
   padding-left: 1em;
 
 }
+
+//media queries
+
+@media screen and (max-width: $screen-xs) {
+  .mycompanies-page {
+    .views-field-link-to-revision {
+      margin-left: 33%;
+    }
+
+  }
+}

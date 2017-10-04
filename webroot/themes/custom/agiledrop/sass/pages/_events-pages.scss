@@ -11,26 +11,26 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-    .event-time {
-      color: $color-font;
-      font-size: 2.5em;
-      padding-top: 0.5em;
-    }
-    .event-date {
+  .event-time {
+    color: $color-font;
+    font-size: 2.5em;
+    padding-top: 0.5em;
+  }
+  .event-date {
+    color: $color-darkgray;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+
+  }
+  .views-field-title {
+    a {
       color: $color-darkgray;
       font-size: 1.2em;
-      padding-bottom: 1em;
-
     }
-    .views-field-title {
-      a {
-        color: $color-darkgray;
-        font-size: 1.2em;
-      }
-    }
-      .views-field-link-to-revision {
-        padding: 2em;
-      }
+  }
+  .views-field-link-to-revision {
+    padding: 2em;
+  }
 
   .read-more-events {
     background-color: #29c1e1;
@@ -41,10 +41,10 @@
     padding: 0.4em 0.9em;
 
 
-      a {
-        color: #fff;
+    a {
+      color: #fff;
 
-      }
+    }
 
     &:hover {
       background-color: $color-orange;
@@ -82,22 +82,22 @@
     font-weight: normal;
     color: $color-font;
   }
-    .field--name-field-end-date .field__label {
-      border-left: 4px solid $color-blue;
-      font-size: 1.5em;
-      font-weight: normal;
-      color: $color-font;
-    }
+  .field--name-field-end-date .field__label {
+    border-left: 4px solid $color-blue;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: $color-font;
+  }
   .field--type-entity-reference {
     text-align: center;
     font-size: 1.5em;
     padding-top: 0.5em;
 
-      a {
-        color: $color-font;
-        border-left: 4px solid $color-blue;
-        padding-left: 0.5em;
-      }
+    a {
+      color: $color-font;
+      border-left: 4px solid $color-blue;
+      padding-left: 0.5em;
+    }
 
   }
   time {
@@ -132,5 +132,79 @@
 .events-row:nth-child(odd) {
   .views-field-field-event-image {
     order: 1;
+  }
+}
+
+//events single sidebar
+
+.view-sidebar-first-event-organizer {
+  margin-bottom: 1em;
+  .views-row {
+    border: 2px solid #e2e2e2;
+    padding: 10px;
+
+    }
+  .views-field-title {
+    border-left: 3px solid $color-orange;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 11%;
+    a {
+      color: $color-font;
+      padding-left: 5px;
+      font-size: 1.5em;
+    }
+  }
+  .views-field-view-node {
+    margin-left: 11em;
+    a {
+      color: $color-orange;
+    }
+  }
+  .views-field-field-company-logo {
+    display: inline-block;
+  }
+  .views-field-body {
+    margin-bottom: 0.5em;
+    p {
+      color: $color-karla;
+    }
+  }
+}
+
+.view-duplicate-of-sidebar-first-event-location  {
+  margin-bottom: 1em;
+  .views-row {
+    border: 2px solid #e2e2e2;
+    padding: 10px;
+
+  }
+  .views-field-title {
+    border-left: 3px solid $color-blue;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 11%;
+    a {
+      color: $color-font;
+      padding-left: 5px;
+      font-size: 1.5em;
+    }
+  }
+  .views-field-view-node {
+    margin-left: 11em;
+    a {
+      color: $color-blue;
+    }
+  }
+  .views-field-field-location-image {
+    display: inline-block;
+  }
+  .views-field-body {
+    margin-bottom: 0.5em;
+    p {
+      color: $color-karla;
+    }
   }
 }

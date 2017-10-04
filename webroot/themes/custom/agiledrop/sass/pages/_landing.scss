@@ -33,6 +33,13 @@ div.banner-caption {
   width: 100%;
   color: #fff;
   text-align: center;
+  height: auto;
+   h1 {
+     font-size: 3.5vw;
+   }
+    p {
+      font-size: 1.5vw;
+    }
 }
 ul.slick-dots {
   bottom: 4%;
@@ -73,17 +80,18 @@ span.free {
 
 .boost-block {
   float: left;
-  width: 380px;
+  max-width: 380px;
   //top: 1em;
   clear: right;
   display: inline-block;
-    p {
-      font-size: 1em;
-      color: $color-karla;
-    }
-    strong {
-      color: $color-font;
-    }
+  margin: auto;
+  p {
+    font-size: 1em;
+    color: $color-karla;
+  }
+  strong {
+    color: $color-font;
+  }
   img {
     float: left;
     margin-right: 0.5em;
@@ -91,7 +99,7 @@ span.free {
 }
 .front-page {
   float: left;
-  width: 780px;
+  max-width: 780px;
   margin: auto;
   display: inline-block;
 }
@@ -189,4 +197,6 @@ img.triangle-o {
   padding-bottom: 4em;
   margin-bottom: 3em;
 }
-
+.view-featured-compani .grid-content {
+  max-width: 100%;
+}

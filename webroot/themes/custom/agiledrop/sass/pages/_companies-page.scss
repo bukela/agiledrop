@@ -62,6 +62,10 @@
       float: left;
       margin-right: 2em;
     }
+  &:nth-child(6) {
+    border-bottom: 0;
+
+  }
 }
 
 .node--type-company .field__item {

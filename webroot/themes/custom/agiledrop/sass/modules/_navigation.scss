@@ -88,7 +88,7 @@
 
 .navigation.menu--account ul li {
   display: inline;
-    @media (max-width: $screen-sm) {
+    @media (max-width: $screen-xs) {
       display: block;
       text-align: center;
     }
@@ -103,16 +103,23 @@
     text-transform: uppercase;
 
     @media (max-width: $screen-sm) {
+      font-size: 1em;
+    }
+    @media (max-width: $screen-xs) {
       border-radius: 0;
       display: block;
-      max-width: 100%;
     }
       &:hover {
         background-color: $color-orange;
       }
   }
 }
-
+.menu--account ul.menu {
+  @media (max-width: $screen-sm) {
+    text-align: center;
+    padding: 10px;
+  }
+}
 .search-block {
   display: flex;
   justify-content: center;

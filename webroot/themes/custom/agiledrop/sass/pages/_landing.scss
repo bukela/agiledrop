@@ -96,12 +96,28 @@ span.free {
     float: left;
     margin-right: 0.5em;
   }
+  @media (max-width: 1160px) {
+    float: none;
+    clear: none;
+    display: block;
+
+  }
 }
 .front-page {
   float: left;
   max-width: 780px;
   margin: auto;
   display: inline-block;
+   @media (max-width: 1160px) {
+     float: none;
+     text-align: center;
+     display: block;
+
+      img {
+        margin: auto;
+
+      }
+   }
 }
 .latest-events {
   clear: both;
@@ -218,7 +234,7 @@ p.footer2-text {
   color: $color-karla;
 }
 
-@media screen and (max-width: $screen-xs) {
+@media screen and (max-width: $screen-sm) {
   .region-footer-second {
     display: none;
   }

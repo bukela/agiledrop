@@ -27,7 +27,7 @@
   justify-content: space-around;
   margin-bottom: 0.7em;
   
-    @media screen and (max-width: $screen-sm) {
+    @media (max-width: $screen-sm) {
       display: block;
 
     }
@@ -36,8 +36,10 @@
 .agile-navigation {
   width:40%;
   display: flex;
-  @media screen and (max-width: $screen-sm) {
+  @media (max-width: $screen-sm) {
     display: block;
+    margin: auto;
+    width: 100%;
 
   }
 
@@ -47,27 +49,32 @@
     width: 100%;
     text-transform: uppercase;
 
-    @media screen and (max-width: $screen-sm) {
+    @media (max-width: $screen-sm) {
       display: block;
       margin: auto;
+      text-align: center;
 
     }
   }
 }
 .menu--main .menu-item {
   display: inline-block;
+  @media (max-width: $screen-sm) {
+    display: block;
+  }
   a {
     text-decoration: none;
     font-size: 1.2em;
     text-transform: uppercase;
     color: $color-karla;
 
-    @media screen and (max-width: $screen-md) {
+    @media (max-width: $screen-md) {
       font-size: 1em;
-      display: block;
+      //display: block
+      padding: 5px;
     }
-    @media screen and (max-width: $screen-sm) {
-      font-size: 1.2em;
+    @media (max-width: $screen-sm) {
+      font-size: 1.4em;
       display: block;
     }
 
@@ -81,7 +88,7 @@
 
 .navigation.menu--account ul li {
   display: inline;
-    @media screen and (max-width: $screen-sm) {
+    @media (max-width: $screen-sm) {
       display: block;
       text-align: center;
     }
@@ -95,7 +102,7 @@
     word-break: keep-all;
     text-transform: uppercase;
 
-    @media screen and (max-width: $screen-sm) {
+    @media (max-width: $screen-sm) {
       border-radius: 0;
       display: block;
       max-width: 100%;
@@ -168,3 +175,10 @@
 .search-span {
       background-color: #F7931D;
       font-size: 0.8em; }
+
+@media (max-width: $screen-sm) {
+  .navigation.menu--account ul {
+    margin: auto;
+  }
+
+}

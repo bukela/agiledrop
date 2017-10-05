@@ -51,11 +51,14 @@
   align-items: baseline;
 }
 
-.events-sidebar .view-empty h3 {
+.view-event-organizer .view-empty h3 {
   color: $color-orange;
   text-decoration: underline;
 }
-
+.view-event-location .view-empty h3 {
+  color: $color-blue;
+  text-decoration: underline;
+}
 //media queries
 
 

@@ -13,6 +13,7 @@ global-js:
   version: 1.x
   js:
     assets/scripts/application.js:
+    assets/scripts/main.js:
       minified: false
   dependencies:
     - core/jquery

@@ -135,12 +135,20 @@
       content: ':';
       color: #fff;
       padding-right: 0.5em;
+      @media (max-width: 540px) {
+        display: none;
+      }
     }
 }
 
 .search-block .form--inline {
   display: flex;
   justify-content: space-between;
+   @media (max-width: 540px) {
+     display: inline-block;
+     width: 220px;
+     margin: auto;
+   }
 }
 
 .search-block .button {
@@ -150,11 +158,16 @@
   border: none;
   border-radius: 5px;
 }
-
+.search-block .form-autocomplete {
+  width: 200px;
+}
 .region-highlighted {
   background-color: #6E6E70;
   display: flex;
   justify-content: center;
+      @media (max-width: $screen-sm) {
+        display: block;
+      }
 }
 
 .contact-us   a {
@@ -193,6 +206,9 @@
     margin-bottom: 1em;
     padding-left: 2em;
     font-size: 1.1em;
+        @media (max-width: $screen-sm) {
+          margin: auto;
+        }
   }
 }
 

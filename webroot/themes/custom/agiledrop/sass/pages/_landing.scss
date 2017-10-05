@@ -40,6 +40,11 @@ div.banner-caption {
     p {
       font-size: 1.5vw;
     }
+  @media (max-width: $screen-sm) {
+    p {
+      font-size: 2.5vw;
+    }
+  }
 }
 ul.slick-dots {
   bottom: 4%;
@@ -228,14 +233,17 @@ img.triangle-o {
 p.footer2-text {
   color: $color-karla;
   border-bottom: 1px solid $color-karla;
-  font-size: 1.5vw;
+  font-size: 0.9em;
+   @media (max-width: $screen-sm){
+     margin-bottom: 1em;
+   }
 }
 .email-text {
   color: $color-karla;
 }
 
 @media screen and (max-width: $screen-sm) {
-  .region-footer-second {
+  .triangles {
     display: none;
   }
 }

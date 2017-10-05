@@ -16,6 +16,10 @@
   }
   .views-field-body {
     padding-left: 1em;
+    display: inline-block;
+    @media (max-width: $screen-md) {
+      margin: auto;
+    }
     p {
       margin-top: 0;
       color: $color-font;
@@ -51,6 +55,10 @@
   padding: 1em;
   display: block;
   transition: 0.5s;
+  @media (max-width: $screen-sm) {
+    margin: 1em auto 1em;
+
+  }
 
 
   a {
@@ -86,8 +94,10 @@
   padding: 1em;
   display: block;
   transition: 0.5s;
+  @media (max-width: $screen-sm) {
+    margin: 1em auto 1em;
 
-
+  }
   a {
     text-decoration: none;
     color: #1a1a1a;
@@ -122,7 +132,10 @@
   padding: 1em;
   display: block;
   transition: 0.5s;
+  @media (max-width: $screen-sm) {
+    margin: 1em auto 1em;
 
+  }
   a {
     text-decoration: none;
     color: #1a1a1a;
@@ -161,17 +174,29 @@
       }
     }
   .field__item {
-    margin: 2em;
+    margin: 1em;
     display: inline-block;
 
   }
 }
+
+.field--name-field-location-equipment {
+  float: right;
+  width: 400px;
+      @media (max-width: $screen-md) {
+        float: none;
+        margin: auto;
+        width: auto;
+        display: inline-block;
+      }
+}
 .field--name-field-location-address {
-  width: 819px;
-  height: 250px;
+  max-width: 819px;
+  height: auto;
   display: flex;
   border: 2px solid lightgrey;
   padding: 5px;
+  overflow: auto;
   iframe {
     order: 1;
     align-self: center;
@@ -185,5 +210,35 @@
   color: #cfcccc;
   font-size: 3em;
   margin: auto;
-  padding-left: 1em;
+  //padding-left: 1em;
+
+  @media (max-width: $screen-md) {
+    font-size: 2em;
+  }
+
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
+}
+
+.field--name-field-location-image {
+  margin: 1em auto 1em;
+}
+
+.node--type-location .field--name-field-location-image {
+  display: inline-block;
+}
+.node--type-location .field--name-body {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1em;
+    @media (max-width: $screen-md) {
+      margin: 0 auto 1em;
+    }
+  p:nth-child(1) {
+    margin-top: 0;
+  }
+}
+.node--type-location .node__content {
+  margin-top: 1em;
 }

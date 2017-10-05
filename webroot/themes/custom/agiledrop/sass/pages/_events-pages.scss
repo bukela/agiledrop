@@ -75,6 +75,13 @@
     text-align: center;
     color: $color-font;
   }
+  .field--name-body {
+    padding-left: 60px;
+    @media (max-width: $screen-md) {
+      text-align: center;
+      padding-left: 0;
+    }
+  }
   .field__label {
     border-left: 4px solid $color-orange;
     padding-left: 0.5em;
@@ -117,12 +124,18 @@
   margin-top: 2em;
 }
 
-//.events-row {
-//  @include make-xs-column(12);
-//  @include make-sm-column(6);
-//  @include make-md-column(3);
-//  @include make-lg-column(4);
+//.field--name-field-start-date, .field--name-field-end-date {
+//  @media (max-width: $screen-sm) {
+//    font-size: 1em;
+//  }
 //}
+
+.node--type-event .field--name-field-end-date .field__label, .node--type-event .field__label,
+.node--type-event time {
+  @media (max-width: $screen-sm) {
+    font-size: 1em;
+  }
+}
 
 .myevents-page .view-content {
   display: flex;
@@ -139,6 +152,8 @@
 
 .view-sidebar-first-event-organizer {
   margin-bottom: 1em;
+  display: inline-block;
+  min-width: 300px;
   .views-row {
     border: 2px solid #e2e2e2;
     padding: 10px;
@@ -158,6 +173,9 @@
   }
   .views-field-view-node {
     margin-left: 11em;
+    @media (max-width: $screen-md) {
+      margin: auto;
+    }
     a {
       color: $color-orange;
     }
@@ -175,6 +193,8 @@
 
 .view-duplicate-of-sidebar-first-event-location  {
   margin-bottom: 1em;
+  display: inline-block;
+  min-width: 300px;
   .views-row {
     border: 2px solid #e2e2e2;
     padding: 10px;
@@ -194,6 +214,9 @@
   }
   .views-field-view-node {
     margin-left: 11em;
+    @media (max-width: $screen-md) {
+      margin: auto;
+    }
     a {
       color: $color-blue;
     }

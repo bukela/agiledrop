@@ -158,6 +158,12 @@
 }
 
 .contact-us   a {
+    @media (max-width: $screen-sm) {
+      display: block;
+      border-radius: 0;
+      text-align: center;
+      font-size: 1.2em;
+    }
   text-decoration: none;
   background-color: $color-blue;
   padding: 7px;
@@ -170,6 +176,11 @@
   }
 }
 
+.contact-us ul.menu {
+  @media (max-width: $screen-sm) {
+    margin: auto;
+  }
+}
 
 .block-block-content57bf0330-a33f-4dd4-93cb-f30ed791cba6, .block-block-contentab235a70-b6cf-4a9a-b71a-df080315c64c, .block-block-content43569a4a-53e3-40bf-a102-70f33100fa1a {
   margin-right: 1em;

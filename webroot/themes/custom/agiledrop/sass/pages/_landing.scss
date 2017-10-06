@@ -233,10 +233,12 @@ img.triangle-o {
 }
 p.footer2-text {
   color: $color-karla;
-  border-bottom: 1px solid $color-karla;
+  border-top: 1px solid #d8d8d8;
+  margin-top: 0;
   font-size: 0.9em;
    @media (max-width: $screen-sm){
      margin-bottom: 1em;
+     font-size: 0.7em;
    }
 }
 .email-text {
@@ -245,6 +247,7 @@ p.footer2-text {
 
 @media screen and (max-width: $screen-sm) {
   .triangles {
-    display: none;
+    width: 30%;
+    height: auto;
   }
 }

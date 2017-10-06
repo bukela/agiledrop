@@ -166,6 +166,18 @@
 .search-block .form-autocomplete {
   width: 195px;
 }
+.search-block .form-select {
+  width: 195px;
+  background-image: none;
+  background-color: #fff;
+  border: 1px solid lightslategray;
+  border-radius: 4px;
+  padding: 4px;
+  color: #817b7b;
+    &:focus {
+  border: 1px solid $color-orange;
+ }
+}
 .region-highlighted {
   background-color: #6E6E70;
   display: flex;
@@ -200,7 +212,9 @@
   }
 }
 
-.block-block-content57bf0330-a33f-4dd4-93cb-f30ed791cba6, .block-block-contentab235a70-b6cf-4a9a-b71a-df080315c64c, .block-block-content43569a4a-53e3-40bf-a102-70f33100fa1a {
+.block-block-content57bf0330-a33f-4dd4-93cb-f30ed791cba6,
+.block-block-contentab235a70-b6cf-4a9a-b71a-df080315c64c,
+.block-block-content43569a4a-53e3-40bf-a102-70f33100fa1a {
   margin-right: 1em;
   align-self: center;
 
@@ -284,4 +298,18 @@
 
 .show {display:block;}
 
+.hambi-account {
+  background-color: $color-blue;
+}
+a.hambi-account {
+  color: #fff;
+  &:hover {
+    color: $color-blue;
+  }
+}
+
 //hamburger end----------
+
+.search-block .form-select select::-ms-expand {
+  display: none;
+}

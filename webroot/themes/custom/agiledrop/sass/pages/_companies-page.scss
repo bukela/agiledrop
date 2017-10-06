@@ -17,16 +17,16 @@
     font-size: 1.5em;
 
 
-      a {
-        color: $color-font;
-        border-left: 4px solid $color-blue;
-        padding-left: 1em;
+    a {
+      color: $color-font;
+      border-left: 4px solid $color-blue;
+      padding-left: 1em;
 
-          &:hover {
-            border-left: 4px solid $color-orange;
-            padding-left: 0.2em;
-          }
+      &:hover {
+        border-left: 4px solid $color-orange;
+        padding-left: 0.2em;
       }
+    }
   }
 
   .company-body {
@@ -58,10 +58,10 @@
   padding: 2em 0em;
   border-bottom: 1px solid #e0e0e2;
 
-    .company-logo {
-      float: left;
-      margin-right: 2em;
-    }
+  .company-logo {
+    float: left;
+    margin-right: 2em;
+  }
   &:nth-child(6) {
     border-bottom: 0;
 
@@ -228,12 +228,12 @@
   border: 2px solid lightgrey;
   padding: 5px;
   overflow: auto;
-    iframe {
-      order: 1;
-      align-self: center;
-      margin-right: 5px;
-      margin: auto;
-    }
+  iframe {
+    order: 1;
+    align-self: center;
+    margin-right: 5px;
+    margin: auto;
+  }
 }
 .field--name-field-company-industry, .field--name-field-company-website,
 .field--name-field-company-phone-number, .field--name-field-company-email {
@@ -254,10 +254,10 @@ p.simple-gmap-address {
   padding-left: 2%;
   border-left: 4px solid $color-blue;
   margin: auto;
-    @media (max-width: $screen-sm) {
-      display: none;
-    }
-    @media (max-width: $screen-md) {
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
+  @media (max-width: $screen-md) {
     font-size: 1em;
   }
 

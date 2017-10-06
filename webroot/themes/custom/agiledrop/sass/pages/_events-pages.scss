@@ -57,13 +57,8 @@
   padding-bottom: 2.5em;
 }
 .myevents-page .view-header {
-  padding-left: 1em;
+  padding-left: 1.6em;
 }
-
-
-//.myevents-page .events-row:nth-child(odd) div.event-image {
-//  order: -1;
-//}
 
 .field--name-field-event-image img {
   border-radius: 50%;
@@ -124,12 +119,6 @@
   margin-top: 2em;
 }
 
-//.field--name-field-start-date, .field--name-field-end-date {
-//  @media (max-width: $screen-sm) {
-//    font-size: 1em;
-//  }
-//}
-
 .node--type-event .field--name-field-end-date .field__label, .node--type-event .field__label,
 .node--type-event time {
   @media (max-width: $screen-sm) {
@@ -177,7 +166,7 @@
     border: 2px solid #e2e2e2;
     padding: 10px;
 
-    }
+  }
   .views-field-title {
     border-left: 3px solid $color-orange;
     display: inline-block;
@@ -251,4 +240,3 @@
   }
 }
 
-//triangles

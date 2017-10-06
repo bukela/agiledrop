@@ -13,10 +13,10 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-    @media screen and (max-width:$screen-sm) {
-      display: block;
-      text-align: center;
-    }
+  @media screen and (max-width:$screen-sm) {
+    display: block;
+    text-align: center;
+  }
 }
 .footer-menu {
   ul {

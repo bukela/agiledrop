@@ -266,7 +266,7 @@
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: dimgray;
+  background-color: #7b7b7b;
   transition: 0.4s;
 }
 
@@ -308,8 +308,14 @@ a.hambi-account {
   }
 }
 
-//hamburger end----------
-
-.search-block .form-select select::-ms-expand {
-  display: none;
+.hambi-account.contact---us {
+  background-color: $color-orange;
 }
+a.hambi-account.contact---us {
+  color: #fff;
+  &:hover {
+    color: $color-orange;
+  }
+}
+
+//hamburger end----------

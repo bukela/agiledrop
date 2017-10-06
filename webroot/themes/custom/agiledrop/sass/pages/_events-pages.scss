@@ -146,6 +146,25 @@
   .views-field-field-event-image {
     order: 1;
   }
+  .views-field-field-event-image::before {
+    content: '\25bc';
+    font-size: 4em;
+    margin-top: -18px;
+    position: absolute;
+    color: #E5EDEF;
+    margin-left: -30px;
+  }
+}
+
+.events-row:nth-child(even) {
+  .views-field-field-event-image::after {
+    content: '\25b2';
+    font-size: 4em;
+    margin-top: -66px;
+    position: absolute;
+    color: #E5EDEF;
+    margin-left: -30px;
+  }
 }
 
 //events single sidebar
@@ -231,3 +250,5 @@
     }
   }
 }
+
+//triangles
